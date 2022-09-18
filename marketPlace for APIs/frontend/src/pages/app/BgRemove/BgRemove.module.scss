@@ -1,0 +1,114 @@
+.container {
+  height: calc(100vh - 4.6rem);
+  display: flex;
+}
+
+.loginLeft {
+  width: 50%;
+  height: 100%;
+  background-color: #f7f8fa80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginRight {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContainer {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  //   background-color: lightgreen;
+}
+
+.imgContainer {
+  width: 80%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Oswald:wght@700&display=swap");
+
+.header {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  padding-left: 6%;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 4.3rem;
+  margin-bottom: 3.2rem;
+}
+
+.text {
+  padding-left: 6%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 2rem;
+  color: #566474;
+  font-weight: 500;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+.form {
+  width: 40%;
+  height: fit-content;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #d2d4d6 solid 1px;
+  border-radius: 0.9rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #566474;
+}
+
+.textTop {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 150%;
+  margin-bottom: 2rem;
+}
+
+.formButton,
+.downloadLink {
+  margin-top: 2.2rem;
+  background-color: #142683;
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  border: none;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.drop {
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: "DM Sans", sans-serif;
+  }
+}

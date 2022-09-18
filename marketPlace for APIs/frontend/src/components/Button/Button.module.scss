@@ -1,0 +1,15 @@
+.button {
+  margin-left: 3rem;
+  // padding: 0.8rem 2rem;
+  width: 10rem;
+  height: 3rem;
+  background-color: #142683;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+
+  &:active {
+    background-color: #ee0284;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "prettier.configPath": ".prettierrc",
+  "prettier.requireConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "json.format.enable": false,
+  "typescript.format.enable": false,
+  "javascript.format.enable": false,
+  "eslint.format.enable": true,
+  "html.format.enable": false,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "Fira Code iScript",
+  "editor.fontLigatures": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 13
+}

@@ -1,0 +1,134 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 2.5rem 10rem;
+  
+    @media screen and (max-width: 1000px) {
+      padding: 2.5rem 6rem;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 2.5rem 10rem;
+    }
+    @media screen and (max-width: 600px) {
+      padding: 2.5rem 5rem;
+    }
+  }
+  
+  .ad {
+    height: 24vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+    border-radius: 0.8rem;
+  }
+  
+  .adImg {
+    width: 24%;
+    height: 100%;
+    //   background-color: white;
+    object-fit: fill;
+    box-sizing: border-box;
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+  
+  .adContainer {
+    width: 76%;
+    height: 100%;
+    background-color: #c3e7fd;
+    border-radius: 0 1.5rem 1.5rem 0;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .adDesign {
+    height: 100%;
+    width: 20%;
+    border-radius: 0 100% 100% 0;
+    transform: translateX(-30%);
+    background-color: #d3b4f6;
+  }
+  
+  .adText {
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap");
+  
+  .adTitle {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    height: 4rem;
+    transform: translateY(-0.7rem);
+  
+    @media screen and (max-width: 1500px) {
+      font-size: 2.3rem;
+    }
+    @media screen and (max-width: 1400px) {
+      font-size: 2.1rem;
+    }
+    @media screen and (max-width: 1300px) {
+      font-size: 1.5rem;
+      transform: translateY(0rem);
+      height: 3rem;
+    }
+  }
+  
+  .adDesc {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 1.35rem;
+    color: #566474;
+    @media screen and (max-width: 1300px) {
+      font-size: 1rem;
+    }
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: 550;
+    margin-bottom: 2rem;
+    padding-left: 4vh;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .buttonContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    border: none;
+    background-color: #1e272e;
+    color: white;
+    padding: 1rem 2.3rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

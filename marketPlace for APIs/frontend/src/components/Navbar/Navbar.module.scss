@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.5rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.lnText {
+  box-sizing: border-box;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: medium;
+  color: #000;
+  padding: 0.8rem 3rem;
+
+  &:hover {
+    border: 0.1rem solid #ee0284;
+    padding: 0.7rem 2.9rem;
+  }
+}
